@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section>
+						<h1>Digital Animation</h1>
+			<!-- 		</section>
+					<section>
+						<h2>Who Am I?</h2>
+					</section> -->
+				</section>
+
+				<section>
+					<section>
+						<h1>What Is Animation?</h1>
+					</section>
+					<section>
+						<h2>Animation</h2>
+						<blockquote>
+							&ldquo;the technique of photographing successive drawings or positions of puppets or models to create an illusion of movement when the movie is shown as a sequence.&rdquo;
+						</blockquote>
+					</section>
+					<section>
+						<p>Animation is a series of images, digital or otherwise, that are played in sequence together and they appear to show motion.</p> 
+						<br>
+					</section>
+					<section>
+						<p>Animations are composed of frames. A frame is a single image, and it doesn’t have any inherent motion.</p>
+						<br>
+						<p>The frames of an animation can be created in many ways, hand drawings, digital drawings, photos taken with a camera.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Backstory of Animation</h1>
+					</section>
+					<section>
+						<p>An animation is a sequence of images, with each image being slightly different than the image both before and after.</p> <br><p>There are many creative ways to create the individual frames,and many ways of combining the frames back together again.</p> 
+						<br>
+					</section>
+					<section>
+						<p>Before we had cameras and other technology for capturing images, painters would create sequences of images all painted on a single wall (<span class="fragment highlight-red">Egypt</span>) or a single pot (<span class="fragment highlight-red">Iran</span>).</p>
+					</section>
+					<section>
+							<img data-src="images/Iran.png" alt="Iran.png">
+							<p style="font-size:xxx-large">Iranian images depicting a running animal.</p>
+							<p style="font-size:large">5200 years old.</p>
+						</section>
+						<section>
+							<img data-src="images/Egypt.jpg">
+							<p style="font-size:xxx-large">Egyptian hieroglyphics depicting a battle scene.</p>
+							<p style="font-size:large">4000 years old.</p>
+						</section>
+					</section>
+					<section>
+						<section>
+							<h1>Early Forms of Animation</h1>
+						</section>
+					</section>		
+
+				<section>
+					<section>
+						<h1>The Magic Lantern</h1>
+						<p style="font-size:xxx-large">1650</p>
+					</section>
+					<section>
+						<p>
+						The magic lantern used a concave mirror in the back to reflect light through a small sheet of glass (“slide”), which had an image painted on it. The image would be projected onto another surface.</p><br><p>More than one glass slide could be used to create the illusion of movement. The slides would be moved through the lantern by hand.
+						</p> 
+						<br>
+					</section>
+					<section>
+						<img height="600px" data-src="images/TheMagicLantern.jpg">
+					</section>
+					<section>
+						<img height="600px" data-src="images/TheMagicLantern2.jpg">
+					</section>
+					<section>
+						<img height="600px" data-src="images/TheMagicLantern3.jpg">
+					</section>
+					<section>
+						<img height="600px" data-src="images/TheMagicLantern4.jpg">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Thaumatrope</h1>
+						<p style="font-size:xxx-large">1824</p>
+					</section>
+					<section>
+						<p>This is a <span class="fragment highlight-red">toy</span>, that contains a disk with images on either side attached to two pieces of string. </p>
+						<img data-src="images/Thaumatrope3.png">
+
+					</section>
+					<section>
+						<img data-src="images/Thaumatrope2.gif">
+					</section>
+					<section>
+						<p>When the strings are twirled between the fingers,the images on the disk blend together. This is different than animation, because it doesn’t create a moving image. </p><br><p>Rather it combines two separate images into a single image, which we call persistence of vision. </p> 
+						<br>
+					</section>
+					<section>
+						<img data-src="images/Thaumatrope1.png">
+						<img data-src="images/Thaumatrope2.png">
+							<p>The two images are moving fast enough that they both will appear to a single image.</p>
+						<img data-src="images/Thaumatrope.gif">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Phenakistoscope</h1>
+						<p style="font-size:xxx-large">1831</p>
+					</section>
+					<section>
+						<p>A disk, with drawings evenly spaced around the circumference. The disk would be placed facing a mirror and then spun around. </p><br><p>The slots in the disk allow somebody to peek through at the mirror and see the images moving by, creating the illusion of movement. </p>
+					</section>
+					<section>
+						<img data-src="images/Phenakistoscope.gif">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h1>Zoetrope</h1>
+						<p style="font-size:xxx-large">1834</p>
+					</section>
+					<section>
+						<p>A disk, with drawings evenly spaced around the circumference. The disk would be placed facing a mirror and then spun around. </p><br><p>The slots in the disk allow somebody to peek through at the mirror and see the images moving by, creating the illusion of movement. </p>
+					</section>
+					<section>
+						<img height="600px" data-src="images/Zoetrope2.jpg">
+					</section>
+						<section>
+						<img data-src="images/Zoetrope.jpg">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Kineograph</h1>
+						<p style="font-size:xxx-large">1868</p>
+					</section>
+					<section>
+						<p>Also known as a flip book.</p>
+					</section>
+						<section>
+						<img data-src="images/Flipbook1.gif">
+					</section>
+						<section>
+						<img data-src="images/Flipbook2.gif">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Praxinoscope</h1>
+						<p style="font-size:xxx-large">1877</p>
+					</section>
+
+					<section>
+						<p>This was the first known animation projection onto a screen. The first animation was shown in public in 1892, by 1900 over 500, 000 people had seen the animations. The frames were drawn directly onto a transparent strip inside the machine. This is similar to the zoetrope, spinning images around the inside of a drum.</p> 
+						<br>
+					</section>
+					<section>
+						<img height="600px" data-src="images/Praxinoscope.png">
+					</section>
+					<section>
+						<img height="600px" data-src="images/Praxinoscope2.png">
+					</section>
+					<section>
+						<img height="600px" data-src="images/Praxinoscope3.jpg">
+					</section>
+					<section>
+						<img height="600px" data-src="images/Praxinoscope4.jpg">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Kinetoscope</h1>
+						<p style="font-size:xxx-large">1889</p>
+					</section>
+					<section>
+						<p>The viewer would look through an eye piece on the device and see the animation inside. Using a shutter and a strip of images, frames are shown one at a time, with a shutter in between each to create the animation. This meant only one person could watch at a time. </p>
+					</section>
+					<section>
+						<img height="600px" data-src="images/Kinetoscope.jpg">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Cinematograph</h1>
+						<p style="font-size:xxx-large">1892</p>
+					</section>
+					<section>
+						<p>The name is Greek for “writing in movement”.This is the first film camera and film projector. It was hand operated with a crank, and projected an image onto a screen, allowing multiple people to view at once unlike the Kinetograph.</p>
+					</section>
+					<section>
+						<img height="600px" data-src="images/Cinematograph.jpg">
+					</section>
+					<section>
+						<img height="600px" data-src="images/Cinematograph2.png">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<p>By 1900, standard picture film was popular and the film formats were becoming standardized. It became easier to create animations once there were cameras to capture individual frames. Colour film was not available until 1908.
+						</p><br><p>During the 1910s cartoons began to be produced and shown in movie theaters. Around this time, stop motion animation started to become popular as well as traditional techniques.
+						 </p> 
+						<br>
+					</section>
+					<section>
+						<p>In 1923, a man named <span class="fragment highlight-red">Walt Disney</span> opened a studio in LA, and in 1928 Steamboat Willie was created, which had sound included.</p>
+					</section>
+					<section>
+						<img data-src="images/SteamboatWillie.gif">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Modern Animation</h1>
+						<p>In more recent times, computers have helped us to advance our animation skills beyond anything we were previously capable of.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Traditional Animation</h1>
+					</section>
+					<section>
+						<p>Using physical paper, pens, pencils, markers etc to create images. More traditional mediums that were used before computers were as popular. Older Disney movies use this style of animation.</p>
+					</section>
+					<section>
+						<img data-src="images/Traditional1.gif">
+					</section>
+					<section>
+						<img data-src="images/Traditional2.gif">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h1>Claymation</h1>
+					</section>
+					<section>
+						<p>Clay figures are created (usually with wires inside to help the movement) and similar to stop motion, different frames are created by taking pictures. Each picture becomes a new frame.</p>
+					</section>
+					<section>
+						<img data-src="images/Claymation.gif">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h1>Stop Motion Animation</h1>
+					</section>
+					<section>
+						<p>Pictures are taken using a camera of different objects. Each image represents a frame of the animation and each image has the objects placed in slightly different positions.</p>
+					</section>
+					<section>
+						<img data-src="images/StopMotion.gif">
+					</section>
+					<section>
+						<img data-src="images/StopMotion2.gif">
+					</section>
+					<section>
+						<img data-src="images/StopMotion3.gif">
+					</section>
+					<section>
+						<img data-src="images/Pacman.gif">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h1>Digital Animation</h1>
+					</section>
+					<section>
+						<p>Digital animation is split into 2D and 3D. 2D just requires drawing frames on a computer, very similar to traditional animation. 3D involves using a computer to create 3D models of objects, and then manipulating those objects to capture different frames.</p>
+					</section>
+					<section>
+						<img data-src="images/PixelArt.gif">
+					</section>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
